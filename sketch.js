@@ -62,8 +62,8 @@ function draw() {
 }
 
 function jump(){
-	if(keyCode===UP_ARROW){
-		Matter.Body.applyForce(paper.body,paper.body.position,{x:7,y:-5});
+	if(keyDown(UP_ARROW)){
+		Matter.Body.applyForce(paper.body,paper.body.position,{x:15,y:-25});
 	}
 }
 
